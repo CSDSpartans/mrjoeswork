@@ -1,22 +1,23 @@
-import random
-answers = ["Yes", "No", "Maybe","Ask your mother."]
+#  MAGIC 8 BALL
 
-#MAGIC 8 BALL
+import random
 
 from termcolor import colored  # For Color
+print( colored('hello', 'blue'), colored('world', 'green'))              #For Color
 
-print( colored('hello', 'blue'), colored('world', 'green')) # For Color
+answers = ["Yes", "No", "Maybe","Ask your mother."]
 
 def game():
-    print(colored("Welcome to the Magic 8 Ball!", "red")) #color
-    input(colored("What is your question? >>>","red","on_green"))
+    print(colored("Welcome to the Magic 8 Ball!", "red"))                #color
+    input(colored("What is your question? >>>","red","on_yellow"))
     answer=random.choice(answers)
-    print(colored(answer,"yellow"))  #color
+    print(colored(answer,"yellow"))                                      #color
     #print(answer)
     #print(answers[3])
     
 play_again = True
 keep_playing = True
+
 try:
     while keep_playing:
         game()
