@@ -5,8 +5,11 @@ name_of_mydocument = 'mydocument.txt'
 file_input = open(name_of_mydocument, 'r')     #open file for reading
 
 line = file_input.readline()
+print(line)
 line = file_input.readline()
+print(line)
 line = file_input.readline()
+print(line)
 
 line = file_input.readline()
 
