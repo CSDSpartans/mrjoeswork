@@ -1,5 +1,6 @@
                           #
                           #  Code Added to Write Poem
+name_of_mydocument = 'mydocument.txt'
 file_input = open(name_of_mydocument, 'r')
 
 name_of_outputdocument = 'myoutputdocument.txt'
