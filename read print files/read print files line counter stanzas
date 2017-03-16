@@ -1,5 +1,5 @@
-#   This reads and prints the whole document.
-#           It does not prt a blank line after each line of the file
+#   This reads a poem, prints the title, author and poem.
+#          It has 3 counters - a poem line counter, a stanza counter, and a file line counter
 
 name_of_mydocument = 'mydocument.txt'                # Name the file
 file_input = open(name_of_mydocument, 'r')           # open file for reading
