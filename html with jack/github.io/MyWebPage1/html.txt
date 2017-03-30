@@ -1,1 +1,12 @@
-
+<!DOCTYPE html>
+<html>
+  <link href="index.css" rel="sytlesheet" type="text/css">
+  <title>My Webpage</title>
+  <body>
+    <p>Hello World and all the People</p>
+    <h1>BORK</h1>
+    <h2>BORK</h2>
+    <a href="http://sanger.dk/">CUTE PUPPERINO</a>
+    <img src="http://pbs.twimg.com/media/CgldEYQU8AA2MPn.jpg">
+  </body>
+</html>
