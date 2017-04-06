@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ninja</title>
+	</head>
+	<body><img src=
+"https://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg"/> 
+<p>Age: 20</p>
+<p>Gender: Ninja</p> 
+<p>Hometown: NinjaTown</p>
+<ul>What I like to do.</ul>
+<ul>I like to kill bad guys and my number one priority is to not kill the good guys.</ul>
+<ul>If I kill the good guys I will lose honor!</ul>
+<ul>I live in NinjaTown, It's pretty quiet here I've compiled my favourite things to do into a list.</ul>
+<li>Fishing</li>
+<li>Taking long walks on the ninja beach</li>
+<li>Playing Mario</li>
+<li>Killing the bad guys</li>
+<ul>
+  <ul>Intrest
+    <ol>
+       <li>Learning to Vanish</li>
+       <li>Watching Targets</li>
+       <li>Parkour</li>
+       <li>Hanging Out and Eating Noodles</li>
+    </ol>
+
+<script>
+window.alert("Suprise, This Is Ninja, I caught you lacking.");
+</script>
+
+  </ul>
+</ul>
+</body>
+</html>
