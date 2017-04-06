@@ -1,0 +1,31 @@
+#  MAGIC 8 BALL
+
+import random
+
+from termcolor import colored  # For Color
+print( colored('hello', 'blue'), colored('world', 'green'))              #For Color
+
+answers = ["Yes", "No", "Maybe","Ask your mother."]
+
+def game():
+    print(colored("Welcome to the Magic 8 Ball!", "red"))                #color
+    input(colored("What is your question? >>>","red","on_yellow"))
+    answer=random.choice(answers)
+    print(colored(answer,"yellow"))                                      #color
+    #print(answer)
+    #print(answers[3])
+    
+play_again = True
+keep_playing = True
+
+try:
+    while keep_playing:
+        game()
+        play_again = input("Do You Want to Play Again? Yes or No ")
+        if play_again != "Yes":
+          keep_playing = False
+          print ("Thanks for playing!! ")
+    
+except(KeyboardInterrupt):
+    print("Thanks for playing!")
+    exit
