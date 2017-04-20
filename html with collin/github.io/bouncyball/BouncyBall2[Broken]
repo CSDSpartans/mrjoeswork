@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+  <html>
+    <FORM>
+  <INPUT TYPE="button" VALUE="green"
+    ONCLICK="document.fgColor='green'">
+    </FORM>
+  <marquee behavior="alternate" scrollamount="15"
+    scrolldelay="8">
+    <img style="height: 50px; width: 50px" src="http://vignette2.wikia.nocookie.net/objectmayhem/images/d/d5/Bouncy_ball_idle.png/revision/latest?cb=20130609122309">
+</html>
